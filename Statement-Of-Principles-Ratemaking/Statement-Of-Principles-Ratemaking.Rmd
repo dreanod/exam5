@@ -1,0 +1,454 @@
+---
+title: Statement of Principles Regarding Property and Casualty Insurance Ratemaking
+author: Board of Directors of the CAS
+date: May 1988
+output: 
+  beamer_presentation:
+    keep_tex: true
+---
+
+
+
+I. DEFINITIONS 
+II. PRINCIPLES
+III. CONSIDERATIONS 
+IV. CONCLUSION
+
+
+
+## The purpose of this Statement 
+
+-----------------
+
+> to identify and describe principles applicable to the determination and 
+> review of property and casualty insurance rates
+
+
+
+
+
+## Scope of the statement
+
+------------
+
+> that portion of the ratemaking process involving the estimation of costs 
+> associated with the transfer of risk
+
+
+
+
+
+
+
+## Use of the statement
+
+-------------
+
+> foundation for the development of actuarial procedures and standards of
+> practice
+
+
+
+
+
+
+## important that proper actuarial procedures be employed to derive rates 
+
+------------
+
+> protect the insurance system’s financial soundness 
+
+> promote equity and availability for insurance consumers.
+
+
+
+
+
+
+## Ratemaking
+
+-----------
+
+> Ratemaking is the process of establishing rates
+
+
+
+
+## considerations for ratemaking
+
+-------------
+
+- marketing goals
+- competition 
+- legal restrictions 
+
+*to the extent they affect the estimation of future costs associated with the transfer of risk*.
+
+
+
+
+
+
+## Costs to be included in Ratemaking
+
+------------------
+
+— Incurred losses
+— Allocated loss adjustment expenses
+— Unallocated loss adjustment expenses
+— Commission and brokerage expenses
+— Other acquisition expenses
+— Taxes, licenses and fees
+— Policyholder dividends
+— General administrative expenses
+— The underwriting profit and contingency provisions
+
+
+
+
+
+
+## Incurred losses
+
+--------------
+
+cost of claims insured.
+
+
+
+
+
+## Allocated loss adjustment expenses
+
+--------------
+
+claims settlement costs directly assignable to specific claims.
+
+
+
+
+
+## Unallocated loss adjustment expenses
+
+--------------
+
+*all costs associated with the claim settlement function* not directly assignable 
+to specific claims.
+ 
+ 
+ 
+ 
+ 
+
+## Commission and brokerage expenses
+
+--------------
+
+compensation to agents and brokers.
+ 
+ 
+ 
+
+
+## Other acquisition expenses
+
+--------------
+
+all costs, except commission and brokerage, associated with
+the acquisition of business.
+
+
+
+
+
+## Taxes, licenses and fees
+
+--------------
+
+all taxes and miscellaneous fees except federal income taxes.
+ 
+ 
+ 
+ 
+## Policyholder dividends
+
+--------------
+
+non-guaranteed return of premium charged to operations as an expense.
+
+
+
+
+
+## General administrative expenses
+
+--------------
+
+are all other operational and administrative costs.
+
+
+
+
+
+## The underwriting profit and contingency provisions
+
+--------------
+
+the amounts that, when considered
+with net investment and other income, provide an appropriate total after-tax return.
+
+
+
+
+
+## Principle 1:
+
+--------------
+
+> A rate is an estimate of the expected value of future costs.
+
+
+
+
+
+## Principle 2:
+
+--------------
+
+> A rate provides for all costs associated with the transfer of risk.
+
+
+
+
+
+## Principle 3: 
+
+--------------
+
+>A rate provides for the costs associated with an individual risk transfer.
+
+
+
+
+
+## Principle 4: 
+
+--------------
+
+>A rate is reasonable and not excessive, inadequate, or unfairly discriminatory if it is an actuarially sound estimate of the expected value of all future costs associated with an individual risk transfer.
+
+
+
+
+## Methodological considerations in ratemaking
+
+-----------------
+
+- Exposure Unit
+- Data
+- Organization of Data
+- Homogeneity
+- Credibility
+- Loss Development
+- Trends
+- Catastrophes
+- Policy Provisions
+- Mix of Business
+- Reinsurance
+- Operational Changes
+- Other Influences
+- Classification Plans
+- Individual Risk Rating
+- Risk
+- Investment and Other Income
+- Actuarial Judgment
+
+
+
+
+
+## Criteria in choosing the exposure unit
+
+--------------
+
+vary with the hazard and be practical and verifiable.
+
+
+
+
+## When is historical experience relevant?
+
+------------------
+
+If it provides a basis for developing a reasonable indication of the future. 
+
+
+
+
+## What are acceptable methods of organizing data?
+
+-----------------------
+
+calendar year, accident year, report year and policy year. 
+
+
+
+## What affect the choice of data organization?
+
+------------------
+
+Data availability, clarity, simplicity, and the nature of the insurance coverage
+
+
+
+
+## What should be fully explored?
+
+-----------------
+
+subdividing or combining the data so as to minimize the distorting effects of 
+operational or procedural changes.
+
+
+
+
+## Credibility
+
+-----------------
+
+Credibility is a measure of the predictive value that the actuary attaches to 
+a particular body of data. 
+
+
+
+
+
+## How to increase credibility?
+
+----------------------
+
+* making groupings more homogeneous 
+* by increasing the size of the group analyzed. 
+
+
+
+
+
+## How large should a group be?
+
+--------------------------------
+
+large enough to be statistically reliable.
+
+
+
+
+
+## What should the actuary balance to obtain credible groups?
+
+-------------------
+
+homogeneity and the volume of data.
+
+
+
+
+
+## What trends should be considered?
+
+--------------
+
+claim costs, claim frequencies, exposures, expenses and premiums.
+
+
+
+
+
+
+## What to considere regarding cat?
+
+-------------
+
+* the impact of catastrophes on the experience 
+* procedures to include an allowance for the catastrophe exposure in the rate.
+
+
+
+## Considerations regarding Policy Provisions
+
+---------------
+
+- salvage and subrogation
+- coinsurance
+- coverage limits
+- deductibles
+- coordination of benefits
+- second injury fund recoveries
+
+
+
+
+## Considrations regarding mix of biz
+
+-----------------
+
+- distributional changes in deductibles
+- coverage limitations
+- type of risks that may affect the frequency or severity of claims.
+
+
+
+## Considerations regarding op changes
+
+--------------
+
+changes in:
+
+- underwriting process
+- claim handling
+- case reserving 
+- marketing practices 
+
+*that affect the continuity of the experience.*
+
+
+
+
+
+## Considerations regarding 
+
+-----------
+
+- judicial environment
+- regulatory and legislative changes
+- guaranty funds
+- economic variable
+- residual market mechanisms including subsidies of residual market rate deficiencies.
+
+
+
+
+## What charges should a rate inclode for the risk of random variation from expected costs?
+
+------------------
+
+* Cost of Capital (opportunity cost), accounted in UW provision
+* Contingency provision
+
+
+
+## Contingency provision
+
+------------------------
+
+>A provision for the expected differences, if any, between the estimated costs 
+and the average actual costs, that cannot be eliminated by changes in other 
+components of the ratemaking process.
+
+
+
+## Where in the ratemaking process can actuarial judgement be used?
+
+-----------------------
+
+throughout the ratemaking process as long as it is documented and available for disclosure.

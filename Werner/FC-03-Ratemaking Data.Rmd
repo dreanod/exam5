@@ -1,0 +1,311 @@
+---
+title: Werner
+subtitle: Chapter 3 - Ratemaking data
+output: beamer_presentation
+---
+
+
+
+1. Internal Data
+    + Risk Data
+        * Policy DB
+        * Claim DB
+    + Accounting Info
+2. Data Aggregation
+    + Organization of data
+        * CY
+        * AY
+        * PY
+        * RY
+    + Overall vs classification analysis
+    + Limited data
+3. External data
+    + Statistical plans
+    + Other aggregate industry data
+    + Competitor's filings
+    + Other 3rd party data
+
+
+
+
+
+
+# How aggregated should the data be?
+
+***********
+
+It depends on the type of analysis (overall base rate vs multivariate classification)
+
+
+
+
+# What are the 2 types of internal data
+
+*************
+
+- risk information: expo, premium, CC, losses, expl. variables about policy & claims
+- accounting info: UW exp and ULAE (only at agg level)
+
+
+
+# Risk Data
+
+*****************
+
+policy expo and premium linked to corr claims and loss info
+
+
+
+
+# Examples of granularity in risk/policy DB
+
+***************************
+
+HO: home/year
+WC: payroll of ind class
+Personal Auto: up to 1 for each cov/auto/ind
+
+
+
+
+# How are changes in existing policies recorded?
+
+******************
+
+sep records for *changes* during policy periods
+
+
+
+
+# Fields of a policy DB:
+
+*********************
+
+* policy id
+* risk ids
+* dates
+  - inception
+  - termination
+* Premium (Written)
+* Expo (Written)
+* Characteristics
+
+
+
+# Difficulties with characteristics of policies
+
+**********************
+
+- may change midterm
+- may be in different DB
+- may change over time (age)
+
+
+
+# How can cancellations can be represented by 2 records?
+
+***************
+
+- Original conditions, with original written premium
+- negation of the unearned premium at time of cancellation
+
+
+
+
+# How can midterm changes be represented by 3 records
+
+*******************
+
+- Original conditions
+- negation of unearned premium
+- new record for unearned period with new conditions
+
+
+
+
+
+# Fields in typical Claim DB
+
+******************
+
+* policy id
+* risk ids
+* claim id
+* claimant id
+* dates
+  - date of loss
+  - report date
+  - transaction date
+* claim status
+* claim count
+* paid loss (for cat loss can be separated or flag)
+* event identifier
+* case reserve (case reserve or change in case reserve at time of transaction)
+* ALAE (usually only payments)
+* Salvage/Subrogation
+* Claim characteristics
+
+
+
+# Examples of accounting info tracked at agg level
+
+***************************
+
+- ULAE (cost of claim center)
+- UW expenses (spec GE and OA)
+
+
+# How is accounting info tracked in time?
+
+************************
+
+tracked at calendar year
+
+
+
+
+
+
+
+
+
+
+
+# Criteria for choice of aggregation:
+
+***************
+
+* Match loss and premium for policy
+* Use most recent data available
+* minimize cost of data collection and retrieval
+
+
+
+# Calendar year agg
+
+****************
+
+all premium and loss transaction during 12-month calendar year.
+ignores date of policy issuance, accident date, report date.
+
+**Fixed after end of year**
+
+- calendar year earned premium/earned expo
+- calendar year paid losses
+- calendar year reported year = CY paid + CY case reserve delta
+
++ quickly available
++ no extra cost
+
+- **mismatch between premium and loss**
+
+can be used for short-tail lines
+
+
+
+# Accident year agg
+
+**********************
+
+- for premium and expo: same as CY
+- for losses that occurred during that year
+  * paid
+  * reported = paid + case reserve for the same losses
+  * this will change after the end or period
+
+better match of premium and losses.
+
+need to estimate future dev
+
+choice of valuation date important
+
+
+# Policy year agg / UWY
+
+*********************
+
+all premium and loss transactions on policies *written* during a period.
+
+* premium/expo not fixed after expiration of all policies
+
+=> takes the longest to develop of all agg methods
+
+
+
+
+
+
+# Report year
+
+**************
+
+same as AY, but losses aggregated by report date.
+mostly used for claims-made policies.
+
+
+
+
+
+# How to work with Limited data
+
+*****************
+
+must work with data available and use actuarial jugement to overcome deficiencies.
+
+
+
+
+
+# External data sources
+
+******************
+
+- data calls/statistical plan data
+- other agg insurance ind data
+- comp rate filings
+- other 3rd party data
+
+
+
+
+# Examples of Statistical plan
+
+************
+
+- Texas Private Passenger Automobile Statistical Plan, Texas Commissioner of Insurance
+- NCCI
+- ISO
+- Ad hoc data call from state regulators
+
+
+
+# Examples of Other Agg industry data
+
+****************
+
+- Fast track monitoring system
+- Highway loss data institute (HLDI)
+
+
+
+
+# Challenges with using comp filings
+
+********************
+
+- difficult to piece complete rate manual from partial filings.
+- underwriting tiers
+- different risks, goals, expenses, operation
+- discretionary pricing 
+
+
+
+
+# Examples of Other 3rd party data
+
+*******************
+
+most commonly eco and geo-demo
+
+- CPI, at component level
+- credit score

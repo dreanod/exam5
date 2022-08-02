@@ -1,0 +1,281 @@
+---
+title: Werner
+subtitle: Chapter 3 - Ratemaking data
+---
+
+quality of rates very dependent on qlt of data
+
+for existing product:
+- should have access to relevant and consistent internal data
+
+for new product:
+- actuary to search for internal and external data that is relevant
+
+Chapter: **high level specification for ratemaking data**
+
+When using ext data for new product:
+- impact of lack of internal data on rates?
+- sensitivity to assumptions?
+
+
+
+
+# Internal Data
+
+Requirement depends on type of ratemaking analysis:
+
+adequacy of overall rates ==> agg data
+full multivariate classification analysis ==> granular data
+
+2 types of internal data
+- risk information: expo, premium, CC, losses, expl. variables about policy & claims
+- accounting info: UW exp and ULAE (only at agg level)
+
+actuary should
+- considere data spec in light of insurance product & desired ratemaking analysis
+to judge wheter adequate
+
+
+
+## Risk Data
+
+policy expo and premium linked to corr claims and loss info
+
+
+
+### Policy DB
+
+granularity: policy of policy subdiv
+
+HO: home/year
+WC: payroll of ind class
+Personal Auto: up to 1 for each cov/auto/ind
+
+sep records for *changes* during policy periods
+
+fields:
+* policy id
+* risk ids
+* dates
+  - inception
+  - termination
+* Premium (Written)
+* Expo (Written)
+* Characteristics
+
+Difficultives with characteristics:
+- may change midterm
+- may be in different DB
+- may change over time (age)
+
+
+=> In DB cancellation can be represented by 2 records
+- Original conditions, with original written premium
+- negation of the unearned premium at time of cancellation
+
+midterm changes by 3 records
+- Original conditions
+- negation of unearned premium
+- new record for unearned period with new conditions
+
+
+For GLM need to be aggregated to 1 and 2 records resp.
+
+
+
+### Claims DB
+
+
+Generally transaction records
+
+* policy id
+* risk ids
+* claim id
+* claimant id
+* dates
+  - date of loss
+  - report date
+  - transaction date
+* claim status
+* claim count
+* paid loss (for cat loss can be separated or flag)
+* event identifier
+* case reserve (case reserve or change in case reserve at time of transaction)
+* ALAE (usually only payments)
+* Salvage/Subrogation
+* Claim characteristics
+
+
+
+### Accounting Info
+
+Data needed but not specific to any one policy/lob. => tracked at agg level.
+
+- ULAE (cost of claim center)
+- UW expenses (spec GE and OA)
+
+tracked at calendar year
+
+used to determine XP provisions in ratemaking process.
+
+
+
+
+
+
+
+
+# Data Aggregation
+
+data must be aggregated. if granular, can be aggregated in different ways
+=> better
+
+Criteria for choice of aggregation:
+* Match loss and premium for policy
+* Use most recent data available
+* minimize cost of data collection and retrieval
+
+
+
+## Calendar year agg
+
+all premium and loss transaction during 12-month calendar year.
+ignores date of policy issuance, accident date, report date.
+
+**Fixed after end of year**
+
+- calendar year earned premium/earned expo
+- calendar year paid losses
+- calendar year reported year = CY paid + CY case reserve delta
+
++ quickly available
++ no extra cost
+
+- **mismatch between premium and loss**
+
+can be used for short-tail lines
+
+
+
+## Accident year agg
+
+- for premium and expo: same as CY
+- for losses that occurred during that year
+  * paid
+  * reported = paid + case reserve for the same losses
+  * this will change after the end or period
+
+better match of premium and losses.
+
+need to estimate future dev
+
+choice of valuation date important
+
+
+## Policy year agg / UWY
+
+all premium and loss transactions on policies *written* during a period.
+
+* premium/expo not fixed after expiration of all policies
+
+=> takes the longest to develop of all agg methods
+
+
+
+
+
+
+## Report year
+
+same as AY, but losses aggregated by report date.
+mostly used for claims-made policies.
+
+
+
+## Overall vs classificaton analysis
+
+For overall rate indication: highly summarized data can be used.
+
+For univariate classification analysis: need be aggregated by variable
+
+For multivariate: best if policy/risk level data
+
+
+
+## Limited data
+
+must work with data available and use actuarial jugement to overcome deficiencies.
+
+
+
+
+
+# External data
+
+For new line: might be necessary
+For existing line with data: can be helpful
+
+
+common sources:
+- data calls/statistical plan data
+- other agg insurance ind data
+- comp rate filings
+- other 3rd party data
+
+
+cf ASOP 23
+
+
+## Stat plans
+
+Data required by regulators (usually summarized)
+
+Examples:
+- Texas Private Passenger Automobile Statistical Plan, Texas Commissioner of Insurance
+
+Some companies have been formed to address this need. In addition they 
+analyze the data and make it available to participating companies.
+
+- NCCI
+- ISO
+
+Ad hoc data call from state regulators
+
+
+
+## Other Agg industry data
+
+Insurance voluntary report to various organizations.
+
+- Fast track monitoring system
+- Highway loss data institute (HLDI)
+
+
+
+## Comp filings
+
+- actuarial justification
+- manual pages
+
+simplest cast of base rate change:
+- indicated loss cost level
+- trend in losses and expenses
+
+if changes in rating variables diff
+- relativites
+
+issues
+- difficult to piece complete rate manual from partial filings.
+- underwriting tiers
+- different risks, goals, expenses, operation
+- discretionary pricing 
+
+
+
+
+## Other 3rd party data
+
+most commonly eco and geo-demo
+
+- CPI, at component level
+- credit score

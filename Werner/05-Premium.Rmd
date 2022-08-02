@@ -1,0 +1,54 @@
+
+Goal of ratemaking: Premium that will cover *expected future costs* and
+target UW profit:
+
+Future rate = Future EL + LAE + UW costs+ target UW profit.
+
+3 adjustments to historical premiums before using it for ratemaking
+
+1. Adjust to current rate level
+2. Develop to ultimate
+3. Trend to future premium level (mix shift)
+
+
+These adjustements are only needed if doing a LR indication.
+
+Outline:
+1. Aggregation and definition of premium 
+2. Adjustments techniques to current rate level
+3. Develop to ultimate
+4. Trending premium
+
+
+
+
+Premium Aggregation
+==============================
+
+
+Methods of Aggregation for Annual Terms
+-----------------------------------------
+
+
+As for Exposures
+* 2 aggregations
+  + CY
+  + PY
+* 4 definitions
+  + WP
+  + EP
+  + unEP
+  + inFP
+
+
+unEP
+: Portion of the premium for which coverage as not been provided. 
+: Amount the insured is entitled to recover in case of cancellation.
+
+
+inFP
+: total amount of *Full Term* premium for the policies in force at a certain
+point in time.
+
+inFP best representation of insurer *current* mix of biz => used to monitor
+rate change impact

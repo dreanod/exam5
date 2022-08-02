@@ -1,0 +1,267 @@
+
+expo = basic unit of risk measuring a policy exposure to loss
+
+=> basis for calculating premium
+=> base rate = rate per expo
+=> premium = base rate * expo */+ adj for risk characteristics & fees
+
+Outline
+
+1) Criteria for selecting a good expo base
+2) Particularities for Large Commercial Risks LCR
+3) Premium agg and definitions
+  - Ways to aggregate premium: Calendar year / Policy year
+  - Ways to define exposures: Written, earned, unearned, in-force
+4) Trending exposures
+
+
+
+Criteria for Exposure Bases
+=================================
+
+Criteria for selecting expo base:
+
+1) Proportional to the expected loss
+2) Practical
+3) Consistent with historical precedence and industry practice
+
+
+
+
+
+Proportional to EL
+---------------------
+
+It should be the risk characteristic *the most directly proportional* to the EL.
+(Other risk char used as rating variables.)
+
+**2 exposure with the same risk characteristics should have twice the EL as a single expo**
+
+Example: HO insurance
+* The same home insured 2 years: 2x expected loss
+* 2 identical houses insured 1 year: 2x EL
+* a 400k house vs 200k house: not necessarily 2x EL
+* house/year is a better expo unit that IV
+
+Advantages:
+* Easy to understand by insured
+* Responsiveness to changes in expo (e.g. payroll for WC)
+
+
+Practical
+----------------
+
+Practical: objective, easy to obtain, administer and verify
+
+Why: 
+- Ensure consistency over time
+- Reduce moral hazard, by minimizing manipulation opportunity
+
+Example: in auto insurance, number of miles driven more prop to EL, but
+need self-reporting. Therefore insurance uses car x year. (can change
+with technology)
+
+
+Example: in PL, expo would be number of products in use. But difficult to
+know => use gross sales as proxy. Works for consumable, not for durable goods.
+
+
+
+
+Historical Precedence
+-----------------------
+
+If better expo base emerges, making the switch will raise issues:
+
+
+- Large Swings in premium
+- change in algo => reestimate rating factor and rewrite rating manual, UW guidelines, etc
+- Significant data adjustments needed to use the experience for analysis
+
+Example: WC in 80', pressure to switch from payroll to hours worked for medical 
+coverage. Inadequacy in high wage unionized vs low pay workers.
+Still discussed today. Industry preferred to adjust rating variables, because
+of transition costs.
+
+Lob             |         Expo
+----------------+----------------------
+HO              | house x year
+----------------+----------------------
+PL              | Gross sales
+----------------+----------------------
+CGL             | Sales, floor area, payroll, # unit
+----------------+----------------------
+WC              | payroll
+----------------+----------------------
+Auto liab       | earned car years
+----------------+----------------------
+Personal floater | Value of item
+----------------+----------------------
+Com Biz Prop    | TIV x location
+----------------+----------------------
+Physician pro liab | # physician x year
+----------------+----------------------
+Pro liability   | Nb professionas
+----------------+----------------------
+
+
+
+
+
+
+
+
+
+
+
+Expo for large com risks
+==============================
+
+unique challenges for rating LCRs:
+- multi-peril policies
+- expo changing over course of policy
+- sufficiently large to have own experience
+
+
+
+Composite rating
+-------------------
+
+1) Temporary premium calculated at quoting time
+  - Each cover rated with its own expo base and algo
+  - Using estimated expo
+2) Premium adjusted at end of policy
+  - Proportionately to a *single* reference expo, used a proxy measure
+  
+  
+Loss-rated composite rating
+---------------------------
+
+Premium calculated based on insured own XP, w/o ref to exposure bases.
+Effectively, history used as expo base measure.
+
+
+
+
+
+Agg of Expo
+=============================
+
+
+For annual terms
+------------------
+
+
+### Methods of Aggregation
+
+
+#### CY/AY
+
+All Exposure in a given year, irrespective of date of policy issuance.
+
+Only limited difference between CY and AY aggregation occurs with respect to premium audit.
+
+Usually used for ratemaking because the exposure is known at the end of a year.
+
+**Only considers transactions happening during a given CY**
+
+
+
+
+#### PY/UWY
+
+All exposures from policies incepting in a given year.
+
+Takes longer to develop, therefore, less used for ratemaking.
+
+
+
+### Exposure Definitions
+
+#### WE
+
+All expo arising from policies issued during the period.
+
+CY WE: only transactions during this CY for these policies
+PY WE: all transactions for policies in this block
+=> Differ on midterm policy changes when change on a different year than 
+the inception year.
+
+
+
+
+#### EE
+
+Exposure for which coverage as been provided as of a certain date, within
+the aggregation.
+
+For CY EE: only exposure earned *during the CY*.
+For PY EE: only exposure earned *from policies in the PY*.
+
+After expiration of the last policy PY EE = PY WP.
+
+Usually assumes expo earned homogeneously during the year. If not, use earning
+pattern derived from xp.
+
+
+#### unearned expos
+
+*for PY*: PY unearned E. = PY WE - PY EE
+
+*for CY*: CY unearned E. = CY WE + CY unearned E. from previous year - CY EE
+
+
+
+
+#### in-force expo
+
+
+Nb of *insured units* in force as of a given date.
+Def of *ins. unit* depends on insured.
+
+
+### Summary
+
+Definition |         CY           |           PY  
+-----------|----------------------|----------------------
+WE         | transaction in CY    | policies incepting in PY
+EE         | earned in CY         | earned from incepting in PY
+unEE       | WE - EE - unEE(n-1)  | WE - EE
+
+
+
+
+
+
+
+Calculation of blocks of expo
+------------------------------
+
+How to calculate Exposure for blocks of several policies
+* Calculate for individual policies and sum (best and possible with advances in tech)
+* Use the 15th of the month assumption (when only aggregated data is available)
+
+15th of the month/24ths method
+
+Works if:
+* Policies written uniformly during the time periods
+
+Basically assumes the policies are all written at the midpoint of the period
+(eg 15th of the month is data is monthly aggregated.)
+
+
+
+
+
+
+Expo Trend
+==============
+
+Examples of exposures basis sensitive to inflationary pressure:
+- Payroll
+- Sales
+
+sources of info for these trends in payroll:
+- internal company data
+- industry indices
+

@@ -1,0 +1,106 @@
+---
+title: Rating Manuals
+---
+
+rating manual:
+
+* classify risk
+* calculate premium
+
+ratemaking process result = input to modify rating manual
+
+information to calc a premium
+
+- rules
+- rate pages
+- rating algo
+- UW guidelines
+
+1-3 => rating manual
+
+4 => separate
+
+
+
+
+Rules
+===========================
+
+Qualitative info to help understand and apply algo.
+
+* Definitions
+* Summary of policy forms
+  - coverage
+  - exclusions
+* Categories of risks and risk characteristics
+* endorsements
+
+
+
+
+
+Rate Pages
+==============================
+
+rates pages = *numerical inputs* to calc premium
+
+base risk => base premium
+
+base risk can be selected as:
+- most common risk profile
+- marketing objective
+
+typically *separate* base risk/rate, rating table for *each cov*
+
+
+variations from base rates:
+* relativities/factors/multipliers
+* addends
+
+
+Expenses
+--------------
+
+For fixed xp => explicit expense fee
+               OR minimum premium
+               
+               
+               
+
+
+
+Rating Algo
+=====================================
+
+very specific
+
+1. order or rating var
+2. how rating var effect is applied
+3. min/max premium
+4. rounding
+
+
+
+
+
+
+
+
+
+UW Guidelines
+==================================
+
+criteria for decisions **prior** to rate calc:
+
+* Accept/reject/refer
+* *Company placement*
+* *Tier Placement*
+* Schedule rating
+
+Decision based on *uw characteristics* ~ *rating variables*
+
+
+
+
+
+

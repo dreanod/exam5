@@ -1,0 +1,360 @@
+---
+title: Werner
+subtitle: Chapter 4 - Exposures
+output: beamer_presentation
+---
+
+
+1) Criteria for selecting a good expo base
+2) Particularities for Large Commercial Risks LCR
+3) Premium agg and definitions
+  - Ways to aggregate premium: Calendar year / Policy year
+  - Ways to define exposures: Written, earned, unearned, in-force
+4) Trending exposures
+
+
+
+# Exposure
+
+**********
+
+expo = basic unit of risk measuring a policy exposure to loss
+
+
+
+# Criteria for selecting expo base:
+
+******************
+
+1) Proportional to the expected loss
+2) Practical
+3) Consistent with historical precedence and industry practice
+
+
+
+
+
+# What is mean expo proportional to EL?
+
+---------------------
+
+It should be the risk characteristic *the most directly proportional* to the EL.
+(Other risk char used as rating variables.)
+
+**2 exposure with the same risk characteristics should have twice the EL as a single expo**
+
+
+# Example of propotional Expo base in  HO
+
+------------------
+
+* The same home insured 2 years: 2x expected loss
+* 2 identical houses insured 1 year: 2x EL
+* a 400k house vs 200k house: not necessarily 2x EL
+* house/year is a better expo unit that IV
+
+
+# Advantages of an expo base prop to EL?
+
+************************
+
+* Easy to understand by insured
+* Responsiveness to changes in expo (e.g. payroll for WC)
+
+
+
+
+
+# What it means for the expo base to be practical?
+
+********************
+
+Practical: objective, easy to obtain, administer and verify
+
+
+
+
+# Why should the expo base be practical?
+
+*******************
+
+- Ensure consistency over time
+- Reduce moral hazard, by minimizing manipulation opportunity
+
+
+
+
+# Example of practical expo base in Auto liab
+
+-------------------------------------
+
+Example: in auto insurance, number of miles driven more prop to EL, but
+need self-reporting. Therefore insurance uses car x year. (can change
+with technology)
+
+
+
+# Example of practical expo base in PL
+
+************************************
+
+Example: in PL, expo would be number of products in use. But difficult to
+know => use gross sales as proxy. Works for consumable, not for durable goods.
+
+
+
+
+# Issues with changing expo base
+
+*******************************
+
+- Large Swings in premium
+- change in algo => reestimate rating factor and rewrite rating manual, UW guidelines, etc
+- Significant data adjustments needed to use the experience for analysis
+
+
+
+# Example of expo base change attempt in WC
+
+******************************
+
+Example: WC in 80', pressure to switch from payroll to hours worked for medical 
+coverage. Inadequacy in high wage unionized vs low pay workers.
+Still discussed today. Industry preferred to adjust rating variables, because
+of transition costs.
+
+
+
+# Examples of expos base in different LoBs
+
+**********************
+
+
+Lob                        |         Expo
+---------------------------|----------------------
+HO                         | house x year
+PL                         | Gross sales
+CGL                        | Sales, floor area, payroll, # unit
+WC                         | payroll
+Auto liab                  | earned car years
+Personal floater           | Value of item
+Com Biz Prop               | TIV x location
+Physician pro liab         | # physician x year
+Pro liability              | Nb professionas
+
+
+
+
+
+
+
+# unique challenges for rating LCRs:
+
+******************************
+
+- multi-peril policies
+- expo changing over course of policy
+- sufficiently large to have own experience
+
+
+
+
+# Composite rating
+
+-------------------
+
+1) Temporary premium calculated at quoting time
+  - Each cover rated with its own expo base and algo
+  - Using estimated expo
+2) Premium adjusted at end of policy
+  - Proportionately to a *single* reference expo, used a proxy measure
+  
+  
+  
+  
+# Loss-rated composite rating
+
+---------------------------
+
+Premium calculated based on insured own XP, w/o ref to exposure bases.
+Effectively, history used as expo base measure.
+
+
+
+
+# Which expo agg most commonly used for ratemaking? Why?
+
+----------------------------
+
+CY/AY used for ratemaking because the exposure is known at the end of a year.
+
+
+
+
+
+# Main difference between CY and PY Agg?
+
+-----------------------
+
+**Only considers transactions happening during a given CY**
+
+
+# Why PY agg of Expo not used as much for ratemaking?
+
+---------------------
+
+Takes longer to develop, therefore, less used for ratemaking.
+
+
+
+# Written Exposure
+
+----------------
+
+All expo arising from policies and policy changes effective during the period.
+
+
+
+# How CY WE and PY EE differ?
+
+--------------------------
+
+Differ on midterm policy changes when change on a different year than 
+the inception year.
+
+
+
+
+# Earned Exposure
+
+--------------------------
+
+Exposure for which coverage as been provided as of a certain date, for a certain
+block of transactions.
+
+
+
+# CY EE
+
+---------------------------
+
+exposure earned *during the CY*.
+
+
+
+
+# For PY EE
+
+----------------------------
+
+exposure earned *from policies incepting during the PY*.
+
+
+
+# to what figure will the PY EE eventually converge
+
+--------------------------------
+
+PY WP
+
+
+
+# What is the usual hypothesis for earning premium?
+
+--------------------
+
+Usually assumes expo earned homogeneously during the policy duration.
+
+
+
+# PY unEE
+
+-------------------------
+
+*for PY*: PY unearned E. = PY WE - PY EE
+
+
+
+# CY unEE
+
+-------------------------
+
+*for CY*: CY unearned E. = CY WE + CY unearned E. from previous year - CY EE
+
+
+
+
+# in-force expo
+
+--------------
+
+Nb of *insured units* in force as of a given date.
+Def of *ins. unit* depends on insured.
+
+
+
+
+# Summary of expo agg and def
+
+---------------------
+
+Definition |         CY           |           PY  
+-----------|----------------------|----------------------
+WE         | transaction in CY    | policies incepting in PY
+EE         | earned in CY         | earned from incepting in PY
+unEE       | WE - EE - unEE(n-1)  | WE - EE
+
+in-force expo: nb of insured units in force
+
+
+
+
+
+
+
+
+# How to calculate Exposure for blocks of several policies
+
+--------------------
+
+* Calculate for individual policies and sum (best and possible with advances in tech)
+* Use the 15th of the month assumption (when only aggregated data is available)
+
+
+
+# What 15th of the month/24ths method assumes?
+
+---------------------
+
+* Policies written uniformly during the time periods
+
+
+# How 15th of the month method works?
+
+-----------
+
+Basically assumes the policies are all written at the midpoint of the period
+(eg 15th of the month is data is monthly aggregated.)
+
+
+
+
+
+
+
+# Examples of exposures basis sensitive to inflationary pressure:
+
+-------------
+
+- Payroll
+- Sales
+
+
+# sources of info for these trends in payroll:
+
+------------------
+
+- internal company data
+- industry indices
+
+
